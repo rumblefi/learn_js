@@ -75,9 +75,9 @@ var renderPicture = function (element) {
 
         picture.querySelector('img').src = element.url;
 
-        picture.querySelector('.picture-likes').src = element.likes;
+        picture.querySelector('.picture-likes').textContent = element.likes;
 
-        picture.querySelector('.picture-comments').src = element.comments;
+        picture.querySelector('.picture-comments').textContent = element.comments.length;
 
     return picture;
 
