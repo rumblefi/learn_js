@@ -46,12 +46,12 @@ var generatePictures = function () {
    for ( var i =0; i < 26; i++ ) {
 
        var counter = i + 1,
-           pictureLikesLength = randomInteger(15,200),
+           pictureLikes = randomInteger(15,200),
            pictureComments = randomComments(),
            picture = {
 
                 url: 'photos/' + counter + '.jpg',
-                likes: pictureLikesLength,
+                likes: pictureLikes,
                 comments: pictureComments
 
            };
