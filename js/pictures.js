@@ -122,4 +122,4 @@ var renderGaleryOverlay = function () {
 
 };
 
-renderGaleryOverlay();
+// renderGaleryOverlay();
